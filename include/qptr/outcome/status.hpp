@@ -324,6 +324,7 @@ private:
 }//namespace qptr::outcome
 
 
+#if defined(QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE)
 template <>
 struct fmt::formatter<qptr::outcome::status>
 {
@@ -350,3 +351,4 @@ struct fmt::formatter<qptr::outcome::status>
 		}
 	}
 };
+#endif

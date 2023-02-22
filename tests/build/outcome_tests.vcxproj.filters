@@ -49,5 +49,11 @@
     <ClInclude Include="..\..\include\qptr\status.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\qptr\outcome\result.hpp">
+      <Filter>Header Files\outcome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\qptr\result.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
