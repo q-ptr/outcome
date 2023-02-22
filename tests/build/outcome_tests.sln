@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "outcome_tests", "outcome_tests.vcxproj", "{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		clang-debug|x64 = clang-debug|x64
+		clang-debug|x86 = clang-debug|x86
+		clang-release|x64 = clang-release|x64
+		clang-release|x86 = clang-release|x86
+		msvc-debug|x64 = msvc-debug|x64
+		msvc-debug|x86 = msvc-debug|x86
+		msvc-release|x64 = msvc-release|x64
+		msvc-release|x86 = msvc-release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-debug|x64.ActiveCfg = clang-debug|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-debug|x64.Build.0 = clang-debug|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-debug|x86.ActiveCfg = clang-debug|Win32
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-debug|x86.Build.0 = clang-debug|Win32
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-release|x64.ActiveCfg = clang-release|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-release|x64.Build.0 = clang-release|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-release|x86.ActiveCfg = clang-release|Win32
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.clang-release|x86.Build.0 = clang-release|Win32
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-debug|x64.ActiveCfg = msvc-debug|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-debug|x64.Build.0 = msvc-debug|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-debug|x86.ActiveCfg = msvc-debug|Win32
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-debug|x86.Build.0 = msvc-debug|Win32
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-release|x64.ActiveCfg = msvc-release|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-release|x64.Build.0 = msvc-release|x64
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-release|x86.ActiveCfg = msvc-release|Win32
+		{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}.msvc-release|x86.Build.0 = msvc-release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F954E85F-DA3C-4F27-B7D6-46790A318914}
+	EndGlobalSection
+EndGlobal
