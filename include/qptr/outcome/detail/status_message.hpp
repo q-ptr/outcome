@@ -18,6 +18,9 @@
 #include <new>
 
 
+#define QPTR_OUTCOME_STATUS_HAS_MESSAGE
+
+
 namespace qptr::outcome::detail
 {
 
