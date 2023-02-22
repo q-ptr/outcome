@@ -40,5 +40,8 @@
     <ClInclude Include="..\..\include\qptr\status_code.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\qptr\outcome\detail\status_message.hpp">
+      <Filter>Header Files\outcome\detail</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
