@@ -1,3 +1,11 @@
+///              _                           
+///   ___  _   _| |_ ___ ___  _ __ ___   ___    
+///  / _ \| | | | __/ __/ _ \| '_ ` _ \ / _ \   outcome - status, result & error handling
+/// | (_) | |_| | || (_| (_) | | | | | |  __/   -----------------------------------------
+///  \___/ \__,_|\__\___\___/|_| |_| |_|\___|   https://github.com/q-ptr/outcome
+/// 
+/// SPDX-FileCopyrightText: 2023 q-ptr
+/// SPDX-License-Identifier: MIT
 
 #include <fmt/core.h>
 #include <qptr/status.hpp>
@@ -59,11 +67,8 @@ struct fmt::formatter<semver::version>
 	}
 };
 
-
 int main()
 {
-	//NOT WORKING -> fmt::print("version = {}\n", qptr::outcome::VERSION);
-
 	qptr::status   s1;
 	qptr::status   s2(qptr::status::BUSY);
 	qptr::status   s3(qptr::status::INVALID_CALL, "the call is not valid in this context");

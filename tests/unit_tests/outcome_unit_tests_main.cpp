@@ -7,15 +7,22 @@
 /// SPDX-FileCopyrightText: 2023 q-ptr
 /// SPDX-License-Identifier: MIT
 
-#pragma once
+#include <catch_amalgamated.hpp>
 
 
-#include <cstdint>
-
-
-namespace qptr::outcome
+int main(int argc, char *argv[])
 {
+	int   nResult = Catch::Session().run(argc, argv);
 
-using status_code = uint32_t;
+	return nResult;
+}
 
-}//namespace qptr::outcome
+TEST_CASE("predef", "[predef]")
+{
+	REQUIRE(1 == 1);
+
+	SECTION("test_section")
+	{
+		REQUIRE(1 == sizeof(uint8_t));
+	}
+}

@@ -7,15 +7,27 @@
 /// SPDX-FileCopyrightText: 2023 q-ptr
 /// SPDX-License-Identifier: MIT
 
-#pragma once
-
-
 #include <cstdint>
 
 
-namespace qptr::outcome
+extern "C" int LLVMFuzzerInitialize(int *argc, char ***argv)
 {
+	(void) argc;
+	(void) argv;
 
-using status_code = uint32_t;
+	return 0;
+}
 
-}//namespace qptr::outcome
+extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t data_size)
+{
+	(void) data;
+	(void) data_size;
+
+	return 0;
+}
+
+//temporary...
+int main()
+{
+	return 0;
+}

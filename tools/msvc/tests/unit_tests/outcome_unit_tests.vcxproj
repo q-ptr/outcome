@@ -35,30 +35,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="../src/main.cpp" />
+    <ClCompile Include="$(CPP_CONTRIB_DIR)\catch2\catch_amalgamated.cpp" />
+    <ClCompile Include="..\..\..\..\tests\unit_tests\outcome_unit_tests_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="../../LICENSE" />
-    <None Include="../../README.md" />
-    <None Include="../../TODO.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\include\qptr\outcome\detail\status_message.hpp" />
-    <ClInclude Include="..\..\include\qptr\outcome\result.hpp" />
-    <ClInclude Include="..\..\include\qptr\outcome\status.hpp" />
-    <ClInclude Include="..\..\include\qptr\outcome\status_code.hpp" />
-    <ClInclude Include="..\..\include\qptr\outcome\version.hpp" />
-    <ClInclude Include="..\..\include\qptr\result.hpp" />
-    <ClInclude Include="..\..\include\qptr\status.hpp" />
-    <ClInclude Include="..\..\include\qptr\status_code.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\detail\status_message.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\result.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\status.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\status_code.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\version.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\result.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\status.hpp" />
+    <ClInclude Include="..\..\..\..\include\qptr\status_code.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7a7cdf5a-9381-4c70-b35d-36f828c2ba4c}</ProjectGuid>
+    <ProjectGuid>{CD6D341A-9F7B-420B-9D44-984B72F6BF6F}</ProjectGuid>
     <RootNamespace>outcome_tests</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>outcome_tests</ProjectName>
+    <ProjectName>outcome_unit_tests</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='msvc-debug|Win32'" Label="Configuration">
@@ -144,45 +140,53 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='msvc-debug|Win32'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='clang-debug|Win32'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='msvc-release|Win32'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='clang-release|Win32'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='msvc-debug|x64'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='clang-debug|x64'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='msvc-release|x64'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='clang-release|x64'">
-    <OutDir>../bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
-    <IntDir>../temp/$(Platform.ToLower())/$(Configuration.ToLower())/</IntDir>
+    <OutDir>../../../../build/bin/$(Platform.ToLower())/$(Configuration.ToLower())/</OutDir>
+    <IntDir>../../../../build/temp/$(Platform.ToLower())/$(Configuration.ToLower())/$(ProjectName.ToLower())/</IntDir>
+    <TargetName>$(ProjectName.ToLower())</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='msvc-debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -193,10 +197,10 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -209,10 +213,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -227,10 +231,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -243,10 +247,10 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -257,10 +261,10 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -273,10 +277,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGENDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -291,10 +295,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;FMT_HEADER_ONLY;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGENDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../src;../../include;../../../contribs/fmt/include;../../../contribs/predef/include;../../../contribs/expected/include;../../../contribs/semver/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

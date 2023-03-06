@@ -1,11 +1,11 @@
-//              _                           
-//   ___  _   _| |_ ___ ___  _ __ ___   ___    
-//  / _ \| | | | __/ __/ _ \| '_ ` _ \ / _ \   outcome - status, result & error handling
-// | (_) | |_| | || (_| (_) | | | | | |  __/   -----------------------------------------
-//  \___/ \__,_|\__\___\___/|_| |_| |_|\___|   https://github.com/q-ptr/outcome
-// 
-// SPDX-FileCopyrightText: 2023 q-ptr
-// SPDX-License-Identifier: MIT
+///              _                           
+///   ___  _   _| |_ ___ ___  _ __ ___   ___    
+///  / _ \| | | | __/ __/ _ \| '_ ` _ \ / _ \   outcome - status, result & error handling
+/// | (_) | |_| | || (_| (_) | | | | | |  __/   -----------------------------------------
+///  \___/ \__,_|\__\___\___/|_| |_| |_|\___|   https://github.com/q-ptr/outcome
+/// 
+/// SPDX-FileCopyrightText: 2023 q-ptr
+/// SPDX-License-Identifier: MIT
 
 #pragma once
 
@@ -82,26 +82,24 @@ public:
 	using   fmt_format_string = std::string_view;
 #endif
 
-	status() : data_(status_code_data(OK))
+	status() = default;
+
+	status(status_code code) : data_(status_code_data(code))
 	{
 	}
 
-	explicit status(status_code code) : data_(status_code_data(code))
-	{
-	}
-
-	status(status_code code, const char *string) : data_(status_code_data(OK))
+	status(status_code code, const char *string)
 	{
 		set(code, string);
 	}
 
 	template <typename... T>
-	status(status_code code, fmt_format_string<T...> fmt, T &&... args) : data_(status_code_data(OK))
+	status(status_code code, fmt_format_string<T...> fmt, T &&... args)
 	{
 		set(code, fmt, args...);
 	}
 
-	status(const status &status) : data_(status_code_data(OK))
+	status(const status &status)
 	{
 		if (is_code_only(status.data_))
 		{
@@ -269,7 +267,7 @@ public:
 
 private:
 
-	uintptr_t   data_;
+	uintptr_t   data_ = status_code_data(OK);
 
 	static inline bool is_code_only(uintptr_t data)
 	{

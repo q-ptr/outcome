@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\qptr">
+      <UniqueIdentifier>{a23d8cbb-5164-47a9-a2d5-087ab8249982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qptr\outcome">
+      <UniqueIdentifier>{f2c319a7-6f58-48ad-91b6-a4354e36e971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qptr\outcome\detail">
+      <UniqueIdentifier>{4b7e4c53-3c4c-48ed-b4d1-65ca01abb1b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\tests\tests\outcome_tests_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\qptr\result.hpp">
+      <Filter>Header Files\qptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\status.hpp">
+      <Filter>Header Files\qptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\status_code.hpp">
+      <Filter>Header Files\qptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\result.hpp">
+      <Filter>Header Files\qptr\outcome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\status.hpp">
+      <Filter>Header Files\qptr\outcome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\status_code.hpp">
+      <Filter>Header Files\qptr\outcome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\version.hpp">
+      <Filter>Header Files\qptr\outcome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\outcome\detail\status_message.hpp">
+      <Filter>Header Files\qptr\outcome\detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
