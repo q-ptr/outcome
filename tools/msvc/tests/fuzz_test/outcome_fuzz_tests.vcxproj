@@ -185,7 +185,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -199,7 +199,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -215,7 +215,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -233,7 +233,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -249,7 +249,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -263,7 +263,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -279,7 +279,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -297,7 +297,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/fuzz_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

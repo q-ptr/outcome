@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(CPP_CONTRIB_DIR)\catch2\catch_amalgamated.cpp" />
+    <ClCompile Include="$(CPP_CONTRIBS_PATH)\catch2\catch_amalgamated.cpp" />
     <ClCompile Include="..\..\..\..\tests\unit_tests\outcome_unit_tests_main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -186,7 +186,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -200,7 +200,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -216,7 +216,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -234,7 +234,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGEWIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -250,7 +250,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -264,7 +264,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -280,7 +280,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGENDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -298,7 +298,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGE;QPTR_OUTCOME_STATUS_HAS_FMT_MESSAGENDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/expected/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include;$(CPP_CONTRIB_DIR)/catch2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/unit_tests;../../../../include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/expected/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include;$(CPP_CONTRIBS_PATH)/catch2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

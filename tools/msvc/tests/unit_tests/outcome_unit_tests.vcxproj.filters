@@ -27,7 +27,7 @@
     <ClCompile Include="..\..\..\..\tests\unit_tests\outcome_unit_tests_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(CPP_CONTRIB_DIR)\catch2\catch_amalgamated.cpp">
+    <ClCompile Include="$(CPP_CONTRIBS_DIR)\catch2\catch_amalgamated.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
